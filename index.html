@@ -3,11 +3,18 @@
 <head>
 	<title>AnalogSea</title>
 	<meta charset="UTF-8">
+	<!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!-- reset -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+
+  <!-- my stylesheet -->
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 	<header>
-		<h1><img src="images/logo.png" alt="sea wave logo"></h1>
+		<h1><img src="images/logo.png" alt="sea wave logo" /></h1>
 	</header>
 	<main>
 		<form action="/signup/" method="post">
@@ -23,7 +30,7 @@
 				</div>
 			</fieldset>
 			<button type="submit">Sign Up</button>
-			<p><a href="forgot-password/new">Forgot Passord&#63;</a></p>
+			<p class="forgot_password"><a href="forgot-password/new">Forgot Password&#63;</a></p>
 		</form>
 		<p class="log_in">Already have an account&#63; <a href="/login">Log In</a></p>
 	</main>
