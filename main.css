@@ -1,0 +1,48 @@
+header img,
+form {
+	margin: 0 auto;
+}
+
+header img {
+	height: 75px;
+	display: block;
+}
+
+
+form {
+	width: 400px;
+	padding: 0 40px 0 40px;
+	box-sizing: border-box;
+}
+
+
+fieldset {
+	border: none;
+}
+
+
+.log_in,
+form h1,
+form p {
+	text-align: center;
+}
+
+
+
+form[input],
+button {
+	width: 320px;
+	border: 2px solid #dddddd;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	background-color: #65C470;
+	border: 2px solid #65C470;
+	height: 55px;
+	padding: 15px;
+}
+
